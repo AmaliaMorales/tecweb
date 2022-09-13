@@ -11,18 +11,11 @@
 <body>
 <?php
 
-$a = "0";
-$b = "TRUE";
-$c = FALSE;
-$d = ($a OR $b);
-$e = ($a AND $c);
-$f = ($a XOR $b);
+$a = "ManejadorSQL";
+$b = "MySQL";
+$c = &$a;
 
-$a = '0';
- $e_float_de_a = floatval($a);
- echo $e_float_de_a; 
-
-floatval()
+echo "$a,$b,$c";
 ?>
 </body>
 </html>
