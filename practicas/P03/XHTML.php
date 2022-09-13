@@ -26,17 +26,41 @@
 <h3><ul><br>9E3,7,9000 </br> <br>a = "7 personas";</br> <br>$b = (integer) $a;</br> <br>$a = "9E3";</br> <br>$c = (double) $a;</br> <br>echo "$a,$b,$c";</br></ul>  </h3>
 
 <h2><b> Ejercicio 6 </b></h2>
+<h3><ul><br>string(1) "0" <br>string(4) "TRUE" <br>bool(false)<br> bool(true) <br> bool(false)<br>  bool(true) <br></br>$a = "0"; var_dump($a);<br>echo;<br></br>$b = "TRUE";<br>var_dump($b);<br>echo;<br></br>
+$c = FALSE;<br>var_dump($c);<br>echo;<br></br> $d = ($a OR $b);<br>var_dump($d);<br>echo;<br></br> $e = ($a AND $c);<br>var_dump($e);<br>echo;<br></br> $f = ($a XOR $b);<br>var_dump($f);<br></br></ul></h3>
+
 <h2><b> Ejercicio 7 </b></h2>
 
 
 <body>
 <?php
-$a = "7 personas";
-$b = (integer) $a;
-$a = "9E3";
-$c = (double) $a;
+ $a = "0";
+ var_dump($a);
 
-echo "$a,$b,$c";
+ echo "<br>";
+ 
+ $b = "TRUE";
+ var_dump($b);
+
+ echo "<br>";
+ 
+ $c = FALSE;
+ var_dump($c);
+
+ echo "<br>";
+ 
+ $d = ($a OR $b);
+ var_dump($d);
+
+ echo "<br>";
+ 
+ $e = ($a AND $c);
+ var_dump($e);
+
+ echo "<br>";
+ 
+ $f = ($a XOR $b);
+ var_dump($f);
 
 
 ?>
