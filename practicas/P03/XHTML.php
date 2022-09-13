@@ -23,31 +23,20 @@
 <h3><ul><br>function test() {</br><br>$a = "PHP5 ";</br><br>$b = "5a version de PHP. ";</br><br>echo "$a en el ámbito global: " . $GLOBALS["a"] . "\n";</br><br> echo "$b en el ámbito simple: " . $b . "\n";}</br><br>$a = "Contenido de ejemplo:  ";</br><br>$b = "Contenido de ejemplo: ";</br><br>test();</br></ul></h3>
 
 <h2><b> Ejercicio 5 </b></h2>
+<h3><ul><br>9E3,7,9000 </br> <br>a = "7 personas";</br> <br>$b = (integer) $a;</br> <br>$a = "9E3";</br> <br>$c = (double) $a;</br> <br>echo "$a,$b,$c";</br></ul>  </h3>
+
 <h2><b> Ejercicio 6 </b></h2>
 <h2><b> Ejercicio 7 </b></h2>
 
 
 <body>
 <?php
-$$a = "PHP5 ";
-//$z[] = &$a;
-$b = "5a version de PHP. ";
-//$c = $b*10;
-//$a .= $b;
-//$b *= $c;
-//$z[0] = "MySQL";
-echo "$a,$b";
-function test() {
-    $a = "PHP5 ";
-    $b = "5a version de PHP. ";
+$a = "7 personas";
+$b = (integer) $a;
+$a = "9E3";
+$c = (double) $a;
 
-    echo "$a en el ámbito global: " . $GLOBALS["a"] . "\n";
-    echo "$b en el ámbito simple: " . $b . "\n";
-}
-
-$a = "Contenido de ejemplo:  ";
-$b = "Contenido de ejemplo: ";
-test();
+echo "$a,$b,$c";
 
 
 ?>
