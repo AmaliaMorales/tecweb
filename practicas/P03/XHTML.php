@@ -13,6 +13,7 @@
 <h3><ul>Respuesta: No son validas porque no cumplen con la sintaxis.</ul><h3>
 <h2><b> Ejercicio 2 </b></h2>
 <h3><ul><br>ManejadorSQL,MySQL,ManejadorSQL</br> <br>$a = "ManejadorSQL";</br> <br>$b = "MySQL";</br> <br>$c = &$a;</br> <br>echo "$a,$b,$c";</br></ul></h3> 
+<h3><ul><br>ManejadorSQL,MySQL,ManejadorSQL PHP server,PHP server</br> <br>$a = "PHP server";</br> <br>$b = &$a;</br> <br>echo "$a,$b";</br></ul></h3>
 <h2><b> Ejercicio 3 </b></h2>
 <h2><b> Ejercicio 4 </b></h2>
 <h2><b> Ejercicio 5 </b></h2>
@@ -22,14 +23,14 @@
 
 <body>
 <?php
-
 $a = "ManejadorSQL";
 $b = "MySQL";
 $c = &$a;
+echo "$a,$b,$c \n"; 
 
-echo "$a,$b,$c";
-
-?>
+$a = "PHP server";
+$b = &$a;
+echo "$a,$b";
 ?>
 </body>
 </html>
