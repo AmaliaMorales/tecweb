@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Lobito Abarrotero</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+    <style>
+                
+
+
+.encabezado, .contenido, .pub, .pie{
+    padding: 1em 2em;
+}
+
+.contenido, .pub, .pie{
+    box-sizing: border-box;
+    float: left;
+}
+.encabezado{
+    background-color: rgb(11, 99, 158);
+    height: 100px;
+}
+.contenido{
+    width: 60%;
+}
+
+.pie{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+
+}
+
+
+@media only screen and (min-width:780px) and (max-width: 1024px) {
+    .encabezado{
+        background-color: brown;
+    }
+    .contenido, .pub{
+
+        width: 50%;    }
+    
+}
+@media only screen and (min-width:500px) and (max-width: 780px) {
+    .encabezado{
+        background-color: brown;
+    }
+    .contenido, .pub{
+
+        width: 100%;    }
+    
+}
+
+@media only screen and (max-width:500px) {
+    .encabezado{
+        background-color:blueviolet;
+        height: 80%;
+    }
+    .contenido, .pub{
+
+        width: 100%;    }
+    
+}
+    </style>
+</head>
+<body>
+    <header class="encabezado"><h1>El Lobito Abarrotero </h1></header>
+    
+  <section class="contenido">
+    <ul class="navbar">
+        <li><a href="#">Inicio</a>
+        <li><a href="bebida.html">Bebidas</a>
+        <li> <a href="botana.html">Botanas </a>
+        <li><a href="dulceria.html">Dulceria</a>
+        <li><a href="higiene.html">Higiene</a>
+        <li><a href="vinosylicor.html">Vinos y Licores</a>
+      </ul>
+      <article class="datos"> <img src="imagenes/foto2.jpg"></article>
+      <article class="datos"></article>
+  </section>
+  <aside class="pub"></aside>
+   <footer class="pie">
+    <h2>Contactos</h2>
+    <h3>Cel:2461735653 Cel:2462174777</h3>
+    <h2>Ubicacion</h2>
+    <h3>Calle Miguel Hidalgo #2 Barrio de Teotlalpa, La Magdalena Tlaltelulco</h3>
+    <h6>Facebook:El Lobito Abarrotero</h6>
+    
+
+    </footer>
+    
+
+    
+   
+</body>
+</html>
